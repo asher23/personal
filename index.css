@@ -1,0 +1,125 @@
+/* The sidebar menu */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    width: 230px;
+    /* background-color: #182628; */
+    background-color: black;
+    color: #f2f2f2;
+    height: 100vh;
+    font-family: 'Vollkorn', serif;
+    padding-top: 100px;
+    text-align: right;
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+
+  .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.list-group {
+    list-style: none;
+}
+.list-group-item {
+    background-color: #210B0E;
+}
+
+
+.list-group-item-hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.back-img {
+    background-size: cover;
+    background-image: url('./personal_website_image.jpg');
+    height: 300px;
+}
+
+#main {
+    margin-right: 230px;
+}
+
+.text-block {
+    margin: 650px 60px;
+    color: black;
+    font-size: 30px;
+    height: 300px;
+}
+
+.about {
+    text-align: center;
+    padding: 100px;
+    color: white;
+    background-color: #210B0E;
+}
+
+.about-paragraph {
+    font-size: 22px;
+}
